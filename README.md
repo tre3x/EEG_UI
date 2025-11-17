@@ -33,8 +33,5 @@ pip install fastapi uvicorn[standard] flask pandas numpy torch mne openpyxl pyth
 
 ## Project Structure
 - `backend/` — FastAPI app, EDF loading, segmentation, and GRU inference.
-- `frontend/` — Minimal Flask single-page UI that talks to the backend.
+- `frontend/` — Flask single-page UI that talks to the backend.
 
-## Notes
-- `window_length` controls the non-overlapping segment size used for inference.
-- Ground-truth Excel sheets (optional) can be uploaded so the export mirrors their start/end column names.
